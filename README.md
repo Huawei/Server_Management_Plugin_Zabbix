@@ -70,14 +70,14 @@ Step 5	Enter a community name.
 - Step 2	Choose Configuration > Templates.
 - Step 3	Select the template to be imported.
 - Step 4	Select Macros and set {$SNMP_COMMUNITY} and {$SNMP_PORT}.
-	The value of {$SNMP_COMMUNITY} is the community name configured in section 3.1 or section 3.2.
-	Retain the default value 161 for {$SNMP_PORT}.
+	The value of {$SNMP_COMMUNITY} is the community name configured in section 3.1 or section 3.2.
+	Retain the default value 161 for {$SNMP_PORT}.
 - Step 5	Click Update.
 
 **3.3.4 Adding a Host**
 - Step 1	Log in to the Zabbix WebUI.
 - Step 2	Choose Configuration > Hosts.The Hosts page is displayed.
 - Step 3	Select Create Hosts to go to the creation page.
-	Set In groups under Groups to Huawei Server.
-	Set IP address and Port under SNMP interfaces to the iBMC IP address and 161 respectively.
+	Set In groups under Groups to Huawei Server.
+	Set IP address and Port under SNMP interfaces to the iBMC IP address and 161 respectively.
 - Step 4	Click Update.
