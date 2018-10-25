@@ -1,4 +1,4 @@
-#1.Zabbix Template Introduction
+# 1.Zabbix Template Introduction
 
 Zabbix is free and open-source software. After a Huawei iBMC or HMM template is imported and community names of servers are configured in the template, you can view server asset information, monitor server component alarms, and view server temperature change curves, CPU and memory usage change curves, and real-time power change diagrams on the Zabbix WebUI.
 
@@ -16,7 +16,7 @@ Zabbix is free and open-source software. After a Huawei iBMC or HMM template is 
 -	iBMC: 2.94 (U25) or later
 
 
-#2.Template Functions
+# 2.Template Functions
 
 **iBMC Template:**
 Monitoring:
@@ -33,14 +33,14 @@ Monitoring:
 •	Inventory: type, name, OS, serial number, tag, and MAC address
 
 
-#3.Template Configuration
+# 3.Template Configuration
 
-##3.1 Configuring the iBMC
+## 3.1 Configuring the iBMC
 - Step 1	Log in to the iBMC WebUI.
 - Step 2	Choose Configuration > System.
 - Step 3	Select SNMPv2c, and set the community name.
 
-##3.2 Configuring the HMM
+## 3.2 Configuring the HMM
 - Step 1	Log in to the HMM CLI.
 - Step 2	Run the following command to configure the SNMPv2c protocol:
 		smmset -l smm -d snmpconfig -v v2c enable 
@@ -49,7 +49,7 @@ Monitoring:
 		smmset -l smm -d snmpconfig -v community 
 Step 5	Enter a community name.
 
-##3.3 Importing and Configuring a Template
+## 3.3 Importing and Configuring a Template
 **3.3.1 Importing a ValueMap Template**
 - Step 1	Log in to GitHub and obtain the Huawei Server ValueMap V1.1.xml template.
 - Step 2	Log in to the Zabbix WebUI.
