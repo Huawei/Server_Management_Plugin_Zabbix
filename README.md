@@ -20,17 +20,17 @@ Zabbix is free and open-source software. After a Huawei iBMC or HMM template is 
 
 **iBMC Template:**
 Monitoring:
-•	Latest data: CPU, fan, hard disk, iBMC system information, memory, power supply, RAID controller card, and temperature
-•	Problems and triggers: system health status, CPU status, fan status, power supply status, hard disk status, and memory status
-•	Graphs: inlet temperature, power consumption, system CPU usage, averagePower, peakPower, presentSystemPower and system memory usage
-•	Inventory: type, name, OS, serial number, tag, and MAC address
+-	Latest data: CPU, fan, hard disk, iBMC system information, memory, power supply, RAID controller card, and temperature
+-	Problems and triggers: system health status, CPU status, fan status, power supply status, hard disk status, and memory status
+-	Graphs: inlet temperature, power consumption, system CPU usage, averagePower, peakPower, presentSystemPower and system memory usage
+-	Inventory: type, name, OS, serial number, tag, and MAC address
 
 **HMM Template:**
 Monitoring:
-•	Latest data: CPU, fan, power supply, switch, system information, and temperature
-•	Problems and triggers: system health, chassis health, SMM health, blade status, fan status, power supply status, and switch status
-•	Graphs: ambient temperature, inlet temperature, LSW temperature, outlet temperature, real-time chassis power, blade CPU power, blade inlet temperature, real-time blade power, and blade system CPU usage
-•	Inventory: type, name, OS, serial number, tag, and MAC address
+-	Latest data: CPU, fan, power supply, switch, system information, and temperature
+-	Problems and triggers: system health, chassis health, SMM health, blade status, fan status, power supply status, and switch status
+-	Graphs: ambient temperature, inlet temperature, LSW temperature, outlet temperature, real-time chassis power, blade CPU power, blade inlet temperature, real-time blade power, and blade system CPU usage
+-	Inventory: type, name, OS, serial number, tag, and MAC address
 
 
 # 3.Template Configuration
