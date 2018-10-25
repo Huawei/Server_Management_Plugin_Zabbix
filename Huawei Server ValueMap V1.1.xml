@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>3.4</version>
+    <date>2018-10-22T11:38:58Z</date>
+    <value_maps>
+        <value_map>
+            <name>Huawei server fanEntireStatus</name>
+            <mappings>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>ok</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>minor</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>major</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>critical</newvalue>
+                </mapping>
+                <mapping>
+                    <value>5</value>
+                    <newvalue>absence</newvalue>
+                </mapping>
+                <mapping>
+                    <value>6</value>
+                    <newvalue>unknown</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei server hardDiskEntireStatus</name>
+            <mappings>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>ok</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>minor</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>major</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>critical</newvalue>
+                </mapping>
+                <mapping>
+                    <value>5</value>
+                    <newvalue>absence</newvalue>
+                </mapping>
+                <mapping>
+                    <value>6</value>
+                    <newvalue>unknown</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei server HMMsystemHealth</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>ok</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>minor</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>major</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>majorandminor</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>critical</newvalue>
+                </mapping>
+                <mapping>
+                    <value>5</value>
+                    <newvalue>criticalandminor</newvalue>
+                </mapping>
+                <mapping>
+                    <value>6</value>
+                    <newvalue>criticalandmajor</newvalue>
+                </mapping>
+                <mapping>
+                    <value>7</value>
+                    <newvalue>criticalandmajorandminor</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei server hwEntityFanState</name>
+            <mappings>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>normal</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>abnormal</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei server invalid Memory usage</name>
+            <mappings>
+                <mapping>
+                    <value>65536</value>
+                    <newvalue>invalid current memory usage</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei server memoryEntireStatus</name>
+            <mappings>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>ok</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>minor</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>major</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>critical</newvalue>
+                </mapping>
+                <mapping>
+                    <value>5</value>
+                    <newvalue>absence</newvalue>
+                </mapping>
+                <mapping>
+                    <value>6</value>
+                    <newvalue>unknown</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei server powerSupplyEntireStatus</name>
+            <mappings>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>ok</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>minor</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>major</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>critical</newvalue>
+                </mapping>
+                <mapping>
+                    <value>5</value>
+                    <newvalue>absence</newvalue>
+                </mapping>
+                <mapping>
+                    <value>6</value>
+                    <newvalue>unknown</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei server raidControllerHealthStatus</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>ok</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>memory correctable error</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>memory uncorrectable error</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>memory correctable error  and memory uncorrectable error</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>memory ECC error reached limit</newvalue>
+                </mapping>
+                <mapping>
+                    <value>5</value>
+                    <newvalue>memory ECC error reached limit and memory correctable error</newvalue>
+                </mapping>
+                <mapping>
+                    <value>6</value>
+                    <newvalue>memory ECC error reached limit and memory uncorrectable error</newvalue>
+                </mapping>
+                <mapping>
+                    <value>7</value>
+                    <newvalue>memory ECC error reached limit | uncorrectable|correctable error</newvalue>
+                </mapping>
+                <mapping>
+                    <value>8</value>
+                    <newvalue>NVRAM uncorrectable error</newvalue>
+                </mapping>
+                <mapping>
+                    <value>9</value>
+                    <newvalue>NVRAM uncorrectable error and memory correctable error</newvalue>
+                </mapping>
+                <mapping>
+                    <value>10</value>
+                    <newvalue>NVRAM uncorrectable error and memory uncorrectable error</newvalue>
+                </mapping>
+                <mapping>
+                    <value>11</value>
+                    <newvalue>NVRAM uncorrectable error | uncorrectable|correctable error</newvalue>
+                </mapping>
+                <mapping>
+                    <value>12</value>
+                    <newvalue>NVRAM uncorrectable error and memory ECC error reached limit</newvalue>
+                </mapping>
+                <mapping>
+                    <value>13</value>
+                    <newvalue>NVRAM uncorrectableError|ECC ErrorReachedLimit|correctableError</newvalue>
+                </mapping>
+                <mapping>
+                    <value>14</value>
+                    <newvalue>NVRAM|memory uncorrectableError|ECC ErrorReachedLimit</newvalue>
+                </mapping>
+                <mapping>
+                    <value>15</value>
+                    <newvalue>NVRAM|memory Uncorrectable Error|ECC ErrorReachedLimit</newvalue>
+                </mapping>
+                <mapping>
+                    <value>65535</value>
+                    <newvalue>unknown</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei server smmHealth</name>
+            <mappings>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>normal</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>minor</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>major</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>critical</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei server systemHealth</name>
+            <mappings>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>ok</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>minor</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>major</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>critical</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei sever cpuEntireStatus</name>
+            <mappings>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>ok</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>minor</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>major</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>critical</newvalue>
+                </mapping>
+                <mapping>
+                    <value>5</value>
+                    <newvalue>absence</newvalue>
+                </mapping>
+                <mapping>
+                    <value>6</value>
+                    <newvalue>unknown</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei sever HMM Blade temperature</name>
+            <mappings>
+                <mapping>
+                    <value>2.15 G</value>
+                    <newvalue>Invalide Temperature value</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2.15 G°C</value>
+                    <newvalue>Invalide Temperature value</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2147483647</value>
+                    <newvalue>Invalide Temperature value</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2147483647°C</value>
+                    <newvalue>Invalide Temperature value</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei sever invalid CPU usage</name>
+            <mappings>
+                <mapping>
+                    <value>65535 %</value>
+                    <newvalue>invalid current CPU usage</newvalue>
+                </mapping>
+                <mapping>
+                    <value>65536</value>
+                    <newvalue>invalid current CPU usage</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei sever invalid Memory usage</name>
+            <mappings>
+                <mapping>
+                    <value>65536</value>
+                    <newvalue>invalid current memory usage</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei sever memoryEntireStatus</name>
+            <mappings>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>ok</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>minor</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>major</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>critical</newvalue>
+                </mapping>
+                <mapping>
+                    <value>5</value>
+                    <newvalue>absence</newvalue>
+                </mapping>
+                <mapping>
+                    <value>6</value>
+                    <newvalue>unknown</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei sever systemHealth</name>
+            <mappings>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>ok</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>minor</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>major</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>critical</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+    </value_maps>
+</zabbix_export>
