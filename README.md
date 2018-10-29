@@ -84,5 +84,5 @@ Zabbix is free and open-source software. After a Huawei iBMC or HMM template is 
 
 # 4.Zabbix share
 
-- Huawei Server iBMC Template: https://share.zabbix.com/cat-server-hardware/huawei/huawei-server-ibmc-template
-- Huawei Server HMM Template:  https://share.zabbix.com/cat-server-hardware/huawei/huawei-server-hmm-template
+- [Huawei Server iBMC Template](https://share.zabbix.com/cat-server-hardware/huawei/huawei-server-ibmc-template)
+- [Huawei Server HMM Template](https://share.zabbix.com/cat-server-hardware/huawei/huawei-server-hmm-template)
