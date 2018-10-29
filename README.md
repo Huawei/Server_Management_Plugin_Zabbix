@@ -81,3 +81,8 @@ Zabbix is free and open-source software. After a Huawei iBMC or HMM template is 
 	Set In groups under Groups to Huawei Server.  
 	Set IP address and Port under SNMP interfaces to the iBMC IP address and 161 respectively.  
 - Step 4	Click Update.
+
+# 4.Zabbix share
+
+- Huawei Server iBMC Template: https://share.zabbix.com/cat-server-hardware/huawei/huawei-server-ibmc-template
+- Huawei Server HMM Template:  https://share.zabbix.com/cat-server-hardware/huawei/huawei-server-hmm-template
