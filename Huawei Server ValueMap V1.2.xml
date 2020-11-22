@@ -1,8 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.4</version>
-    <date>2018-10-22T11:38:58Z</date>
+    <date>2020-07-13T09:24:04Z</date>
     <value_maps>
+        <value_map>
+            <name>Huawei CCU doorStatus</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Normal</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Abnormal</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei CCU floatLiquidLevel</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Normal</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Overrun</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei CCU leakage</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Normal</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Watering</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei CCU photoelectricLiquidLevel</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Overrun</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Normal</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei CCU solenoidValveElectricActuator</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Normal</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Abnormal</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
+            <name>Huawei CCU temperatureHumidity</name>
+            <mappings>
+                <mapping>
+                    <value>0</value>
+                    <newvalue>Normal</newvalue>
+                </mapping>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Abnormal</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
         <value_map>
             <name>Huawei server fanEntireStatus</name>
             <mappings>

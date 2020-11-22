@@ -3,9 +3,13 @@
 Zabbix is free and open-source software. After a Huawei iBMC or HMM template is imported and community names of servers are configured in the template, you can view server asset information, monitor server component alarms, and view server temperature change curves, CPU and memory usage change curves, and real-time power change diagrams on the Zabbix WebUI.
 
 **Zabbix Template Names:**
--	Huawei - ValueMap V1.0.xml
--	Huawei - iBMC V1.0.xml
--	Huawei - HMM V1.0.xml
+-	Huawei - ValueMap V1.2.xml
+-	Huawei - iBMC V1.2.xml
+-	Huawei - HMM V1.2.xml
+-	Huawei - EMM V1.2.xml
+-	Huawei - SWI V1.2.xml
+-	Huawei - CCU V1.2.xml
+
 
 **Supported Versions:**
 -	Zabbix 3.4.X
