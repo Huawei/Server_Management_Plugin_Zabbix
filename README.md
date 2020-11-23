@@ -53,7 +53,7 @@ Zabbix is free and open-source software. After a Huawei iBMC or HMM template is 
 
 ## 3.3 Importing and Configuring a Template
 **3.3.1 Importing a ValueMap Template**
-- Step 1	Log in to GitHub and obtain the Huawei Server ValueMap V1.1.xml template.
+- Step 1	Log in to GitHub and obtain the Huawei Server ValueMap V1.2.xml template.
 - Step 2	Log in to the Zabbix WebUI.
 - Step 3	Choose Administration > General.
 - Step 4	Select Value mapping from the drop-down list box.
@@ -62,7 +62,7 @@ Zabbix is free and open-source software. After a Huawei iBMC or HMM template is 
 - Step 7	Click Import.
 
 **3.3.2 Importing an iBMC or HMM Template**
-- Step 1	Log in to GitHub and obtain the Huawei Server iBMC Template V1.1.xml or Huawei Server HMM Template V1.1.xml template.
+- Step 1	Log in to GitHub and obtain the Huawei Server iBMC Template V1.2.xml or Huawei Server HMM Template V1.2.xml template.
 - Step 2	Log in to the Zabbix WebUI.
 - Step 3	Choose Configuration > Templates.
 - Step 4	Click Import to go to the import page.
