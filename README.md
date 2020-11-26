@@ -23,32 +23,24 @@ III.Compatibility Information
       <td>Compatible  Zabbix Version</td>
       <td>Version  Dependency</td>
       <td>Hardware  Compatibility</td>
+      <td></td>
    </tr>
    <tr>
       <td>HMM</td>
-      <td>l  Zabbix 3.4</td>
+      <td>Zabbix 3.4, Zabbix 4.0</td>
       <td>HMM V686D or later</td>
       <td>Blade server:</td>
-   </tr>
-   <tr>
-      <td></td>
-      <td>l  Zabbix 4.0</td>
-      <td></td>
       <td>l  E9000</td>
    </tr>
    <tr>
       <td>iBMC</td>
-      <td>l  Zabbix 3.4</td>
+      <td>Zabbix 4.0,  Zabbix 3.4</td>
       <td>iBMC V294 or later</td>
       <td>Rack server:</td>
-   </tr>
-   <tr>
-      <td></td>
-      <td>l  Zabbix 4.0</td>
-      <td></td>
       <td>l  RH1288 V3</td>
    </tr>
    <tr>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -58,9 +50,11 @@ III.Compatibility Information
       <td></td>
       <td></td>
       <td></td>
+      <td></td>
       <td>l  RH2288H V3</td>
    </tr>
    <tr>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -70,9 +64,11 @@ III.Compatibility Information
       <td></td>
       <td></td>
       <td></td>
+      <td></td>
       <td>l  RH8100 V3</td>
    </tr>
    <tr>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -82,15 +78,18 @@ III.Compatibility Information
       <td></td>
       <td></td>
       <td></td>
+      <td></td>
       <td>l  2288H V5</td>
    </tr>
    <tr>
       <td></td>
       <td></td>
       <td></td>
+      <td></td>
       <td>l  2488 V5</td>
    </tr>
    <tr>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -101,14 +100,10 @@ III.Compatibility Information
       <td></td>
       <td></td>
       <td>High-density server:</td>
-   </tr>
-   <tr>
-      <td></td>
-      <td></td>
-      <td></td>
       <td>l  XH321 V3</td>
    </tr>
    <tr>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -118,9 +113,11 @@ III.Compatibility Information
       <td></td>
       <td></td>
       <td></td>
+      <td></td>
       <td>l  XH622 V3</td>
    </tr>
    <tr>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -131,11 +128,6 @@ III.Compatibility Information
       <td></td>
       <td></td>
       <td>Heterogeneous server:</td>
-   </tr>
-   <tr>
-      <td></td>
-      <td></td>
-      <td></td>
       <td>l  G560 V5</td>
    </tr>
    <tr>
@@ -143,56 +135,38 @@ III.Compatibility Information
       <td></td>
       <td></td>
       <td>Blade server:</td>
-   </tr>
-   <tr>
-      <td></td>
-      <td></td>
-      <td></td>
       <td>l  CH121L V5</td>
    </tr>
    <tr>
       <td>CCU</td>
-      <td>l  Zabbix 3.4</td>
+      <td> Zabbix 3.4, Zabbix 4.0, Zabbix 4.4</td>
       <td>CCU V156RC or later</td>
       <td>-</td>
-   </tr>
-   <tr>
-      <td></td>
-      <td>l  Zabbix 4.0</td>
-      <td></td>
-      <td></td>
-   </tr>
-   <tr>
-      <td></td>
-      <td>l  Zabbix 4.4</td>
-      <td></td>
       <td></td>
    </tr>
    <tr>
       <td>EMM</td>
-      <td>l  Zabbix 3.4</td>
+      <td>Zabbix 3.4, Zabbix 4.2</td>
       <td>iBMC V380 or later</td>
       <td>Management module:</td>
-   </tr>
-   <tr>
-      <td></td>
-      <td>l  Zabbix 4.2</td>
-      <td></td>
       <td>l  MM921</td>
    </tr>
    <tr>
-      <td>SWI</td>
-      <td>l  Zabbix 3.4</td>
-      <td>iBMC V396 or later</td>
-      <td>Switch module:</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
    </tr>
    <tr>
-      <td></td>
-      <td>l  Zabbix 4.2</td>
-      <td></td>
+      <td>SWI</td>
+      <td> Zabbix 3.4, Zabbix 4.2</td>
+      <td>iBMC V396 or later</td>
+      <td>Switch module:</td>
       <td>l  CX320</td>
    </tr>
    <tr>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
