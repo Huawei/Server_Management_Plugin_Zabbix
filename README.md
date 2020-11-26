@@ -16,6 +16,7 @@ II. Description
 	
 III.Compatibility Information
 
+
 | Managed  Object	| Compatible Zabbix Version	| Version Dependency	|Hardware Compatibility	| Interface  Protocol|
 | ---------- | :-----------:  | :-----------: |
 | HMM		| Zabbix 3.4, Zabbix 4.0	| HMM V686D or later	| Blade server: E9000	| SNMP v2c |
