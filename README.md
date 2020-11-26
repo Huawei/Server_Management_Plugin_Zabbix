@@ -17,13 +17,191 @@ II. Description
 III.Compatibility Information
 
 
-| Managed  Object	| Compatible Zabbix Version	| Version Dependency	| Hardware Compatibility	| Interface  Protocol|
-| :----------: | :-----------:  | :-----------: | :----------: | :-----------:  |
-| HMM		| Zabbix 3.4, Zabbix 4.0	| HMM V686D or later	| Blade server: E9000	| SNMP v2c |
-| iBMC		| Zabbix 3.4, Zabbix 4.0	| iBMC V294 or later	| Rack server: RH1288 V3, RH2288 V3, RH2288H V3, RH5885 V3, RH8100 V3, 1288H V5, 2288H V5, 2488 V5, 2288 V5. High-density server: XH321 V3, XH620 V3, XH622 V3, XH628 V3. Heterogeneous server: G560 V5. Blade server: CH121L V5	| SNMP v2 |
-| CCU		| Zabbix 3.4, Zabbix 4.0, Zabbix 4.4	| CCU V156RC or later	| -	| SNMP v3 |
-|EMM		| Zabbix 3.4, Zabbix 4.2	| iBMC V380 or later	| Management module: MM921	| SNMP trap v2c, SNMP trap v3 |
-|SWI		| Zabbix 3.4, Zabbix 4.2	| iBMC V396 or later	| Switch module: CX320, CX621	| SNMP trap v2c, SNMP trap v3 |
+<table>
+   <tr>
+      <td>Managed  Object</td>
+      <td>Compatible  Zabbix Version</td>
+      <td>Version  Dependency</td>
+      <td>Hardware  Compatibility</td>
+   </tr>
+   <tr>
+      <td>HMM</td>
+      <td>l  Zabbix 3.4</td>
+      <td>HMM V686D or later</td>
+      <td>Blade server:</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td>l  Zabbix 4.0</td>
+      <td></td>
+      <td>l  E9000</td>
+   </tr>
+   <tr>
+      <td>iBMC</td>
+      <td>l  Zabbix 3.4</td>
+      <td>iBMC V294 or later</td>
+      <td>Rack server:</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td>l  Zabbix 4.0</td>
+      <td></td>
+      <td>l  RH1288 V3</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>l  RH2288 V3</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>l  RH2288H V3</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>l  RH5885 V3</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>l  RH8100 V3</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>l  1288H V5</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>l  2288H V5</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>l  2488 V5</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>l  2288 V5</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>High-density server:</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>l  XH321 V3</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>l  XH620 V3</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>l  XH622 V3</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>l  XH628 V3</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Heterogeneous server:</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>l  G560 V5</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Blade server:</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>l  CH121L V5</td>
+   </tr>
+   <tr>
+      <td>CCU</td>
+      <td>l  Zabbix 3.4</td>
+      <td>CCU V156RC or later</td>
+      <td>-</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td>l  Zabbix 4.0</td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td></td>
+      <td>l  Zabbix 4.4</td>
+      <td></td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>EMM</td>
+      <td>l  Zabbix 3.4</td>
+      <td>iBMC V380 or later</td>
+      <td>Management module:</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td>l  Zabbix 4.2</td>
+      <td></td>
+      <td>l  MM921</td>
+   </tr>
+   <tr>
+      <td>SWI</td>
+      <td>l  Zabbix 3.4</td>
+      <td>iBMC V396 or later</td>
+      <td>Switch module:</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td>l  Zabbix 4.2</td>
+      <td></td>
+      <td>l  CX320</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>l  CX621</td>
+   </tr>
+   <tr>
+      <td></td>
+   </tr>
+</table>
 
 
 	
