@@ -16,7 +16,7 @@ II. Description
 	
 III.Supported Software Version
 
-    	Zabbix 3.4
+    Zabbix 3.4
 	Zabbix 4.0
 	Zabbix 4.2
 	Zabbix 4.4
