@@ -24,118 +24,135 @@ III.Compatibility Information
       <td>Version  Dependency</td>
       <td>Hardware  Compatibility</td>
       <td></td>
+      <td>接口协议</td>
    </tr>
    <tr>
       <td>HMM</td>
       <td>Zabbix 3.4, Zabbix 4.0</td>
       <td>HMM V686D or later</td>
       <td>Blade server:</td>
-      <td>l  E9000</td>
+      <td> E9000</td>
+      <td>SNMP v2c</td>
    </tr>
    <tr>
       <td>iBMC</td>
       <td>Zabbix 4.0,  Zabbix 3.4</td>
       <td>iBMC V294 or later</td>
       <td>Rack server:</td>
-      <td>l  RH1288 V3</td>
+      <td>RH1288 V3</td>
+      <td>SNMP v2c</td>
    </tr>
    <tr>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td>l  RH2288 V3</td>
+      <td>RH2288 V3</td>
+      <td></td>
    </tr>
    <tr>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td>l  RH2288H V3</td>
+      <td>RH2288H V3</td>
+      <td></td>
    </tr>
    <tr>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td>l  RH5885 V3</td>
+      <td>RH5885 V3</td>
+      <td></td>
    </tr>
    <tr>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td>l  RH8100 V3</td>
+      <td>RH8100 V3</td>
+      <td></td>
    </tr>
    <tr>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td>l  1288H V5</td>
+      <td>1288H V5</td>
+      <td></td>
    </tr>
    <tr>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td>l  2288H V5</td>
+      <td>2288H V5</td>
+      <td></td>
    </tr>
    <tr>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td>l  2488 V5</td>
+      <td>2488 V5</td>
+      <td></td>
    </tr>
    <tr>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td>l  2288 V5</td>
+      <td>2288 V5</td>
+      <td></td>
    </tr>
    <tr>
       <td></td>
       <td></td>
       <td></td>
       <td>High-density server:</td>
-      <td>l  XH321 V3</td>
+      <td>XH321 V3</td>
+      <td></td>
    </tr>
    <tr>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td>l  XH620 V3</td>
+      <td>XH620 V3</td>
+      <td></td>
    </tr>
    <tr>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td>l  XH622 V3</td>
+      <td>XH622 V3</td>
+      <td></td>
    </tr>
    <tr>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
-      <td>l  XH628 V3</td>
+      <td>XH628 V3</td>
+      <td></td>
    </tr>
    <tr>
       <td></td>
       <td></td>
       <td></td>
       <td>Heterogeneous server:</td>
-      <td>l  G560 V5</td>
+      <td>G560 V5</td>
+      <td></td>
    </tr>
    <tr>
       <td></td>
       <td></td>
       <td></td>
       <td>Blade server:</td>
-      <td>l  CH121L V5</td>
+      <td>CH121L V5</td>
+      <td></td>
    </tr>
    <tr>
       <td>CCU</td>
@@ -143,34 +160,23 @@ III.Compatibility Information
       <td>CCU V156RC or later</td>
       <td>-</td>
       <td></td>
+      <td>SNMP v3</td>
    </tr>
    <tr>
       <td>EMM</td>
       <td>Zabbix 3.4, Zabbix 4.2</td>
       <td>iBMC V380 or later</td>
       <td>Management module:</td>
-      <td>l  MM921</td>
-   </tr>
-   <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>MM921</td>
+      <td> SNMP trap v2c, SNMP trap v3</td>
    </tr>
    <tr>
       <td>SWI</td>
       <td> Zabbix 3.4, Zabbix 4.2</td>
       <td>iBMC V396 or later</td>
       <td>Switch module:</td>
-      <td>l  CX320</td>
-   </tr>
-   <tr>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td>l  CX621</td>
+      <td> CX320, CX621</td>
+      <td>SNMP trap v2c,  SNMP trap v3</td>
    </tr>
    <tr>
       <td></td>
