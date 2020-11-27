@@ -24,7 +24,7 @@ III.Compatibility Information
       <td><span style="white-space:nowrap;">Version  Dependency&emsp;&emsp;</span></td>
       <td><span style="white-space:nowrap;">Hardware  Compatibility&emsp;&emsp;</span></td>
       <td></td>
-      <td>接口协议</td>
+      <td>Interface  Protocol</td>
    </tr>
    <tr>
       <td>HMM</td>
