@@ -178,9 +178,6 @@ III.Compatibility Information
       <td> CX320, CX621</td>
       <td>SNMP trap v2c,  SNMP trap v3</td>
    </tr>
-   <tr>
-      <td></td>
-   </tr>
 </table>
 
 
