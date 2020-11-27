@@ -1,92 +1,187 @@
-# 1.Zabbix Template Introduction
+****************************************************************************
+Zabbix Plugin Pack for Huawei Device
+****************************************************************************
 
-Zabbix is free and open-source software. After a Huawei iBMC or HMM template is imported and community names of servers are configured in the template, you can view server asset information, monitor server component alarms, and view server temperature change curves, CPU and memory usage change curves, and real-time power change diagrams on the Zabbix WebUI.
+I. General Information
 
-**Zabbix Template Names:**
--	Huawei - ValueMap V1.2.xml
--	Huawei - iBMC V1.2.xml
--	Huawei - HMM V1.2.xml
--	Huawei - EMM V1.2.xml
--	Huawei - SWI V1.2.xml
--	Huawei - CCU V1.2.xml
+    Name:     Zabbix Plugin Packsage for Huawei Server
+    Function: Query, Monitoring
+    Version:  1.2
 
+	
+II. Description
 
-**Supported Versions:**
--	Zabbix 3.4.X
--	Zabbix 4.0.X
+    Integrated in the Zabbix software, Huawei Zabbix plug-in is provided as a Zabbix template. Users can directly use it or use it for secondary development. The Zabbix plug-in can be used to monitor the iBMC, HMM, CCU component, EMM, or SWI.
 
-**Mapping Software:**
--	MM910: (U54) 6.86D or later
--	iBMC: 2.94 (U25) or later
+	
+III. Compatibility Information
 
 
-# 2.Template Functions
+<table>
+   <tr>
+      <td>Managed  Object</td>
+      <td>Compatible  Zabbix Version</td>
+      <td><span style="white-space:nowrap;">Version  Dependency&emsp;&emsp;&emsp;</span></td>
+      <td><span style="white-space:nowrap;">Hardware  Compatibility&emsp;&emsp;&emsp;</span></td>
+      <td><span style="white-space:nowrap;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span></td>
+      <td>Interface  Protocol</td>
+   </tr>
+   <tr>
+      <td>HMM</td>
+      <td>Zabbix 3.4, Zabbix 4.0</td>
+      <td>HMM V686D or later</td>
+      <td>Blade server:</td>
+      <td> E9000</td>
+      <td>SNMP v2c</td>
+   </tr>
+   <tr>
+      <td>iBMC</td>
+      <td>Zabbix 4.0,  Zabbix 3.4</td>
+      <td>iBMC V294 or later</td>
+      <td>Rack server:</td>
+      <td>RH1288 V3</td>
+      <td>SNMP v2c</td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>RH2288 V3</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>RH2288H V3</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>RH5885 V3</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>RH8100 V3</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1288H V5</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>2288H V5</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>2488 V5</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>2288 V5</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>High-density server:</td>
+      <td>XH321 V3</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>XH620 V3</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>XH622 V3</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>XH628 V3</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Heterogeneous server:</td>
+      <td>G560 V5</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Blade server:</td>
+      <td>CH121L V5</td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>CCU</td>
+      <td> Zabbix 3.4, Zabbix 4.0, Zabbix 4.4</td>
+      <td>CCU V156RC or later</td>
+      <td>-</td>
+      <td></td>
+      <td>SNMP v3</td>
+   </tr>
+   <tr>
+      <td>EMM</td>
+      <td>Zabbix 3.4, Zabbix 4.2</td>
+      <td>iBMC V380 or later</td>
+      <td>Management module:</td>
+      <td>MM921</td>
+      <td> SNMP trap v2c, SNMP trap v3</td>
+   </tr>
+   <tr>
+      <td>SWI</td>
+      <td> Zabbix 3.4, Zabbix 4.2</td>
+      <td>iBMC V396 or later</td>
+      <td>Switch module:</td>
+      <td> CX320, CX621</td>
+      <td>SNMP trap v2c,  SNMP trap v3</td>
+   </tr>
+</table>
 
-**iBMC Template:**
--	Latest data: CPU, fan, hard disk, iBMC system information, memory, power supply, RAID controller card, and temperature
--	Problems and triggers: system health status, CPU status, fan status, power supply status, hard disk status, and memory status
--	Graphs: inlet temperature, power consumption, system CPU usage, averagePower, peakPower, presentSystemPower and system memory usage
--	Inventory: type, name, OS, serial number, tag, and MAC address
 
-**HMM Template:**
--	Latest data: CPU, fan, power supply, switch, system information, and temperature
--	Problems and triggers: system health, chassis health, SMM health, blade status, fan status, power supply status, and switch status
--	Graphs: ambient temperature, inlet temperature, LSW temperature, outlet temperature, real-time chassis power, blade CPU power, blade inlet temperature, real-time blade power, and blade system CPU usage
--	Inventory: type, name, OS, serial number, tag, and MAC address
+	
+VI. Additional Resources
 
-
-# 3.Template Configuration
-
-## 3.1 Configuring the iBMC
-- Step 1	Log in to the iBMC WebUI.
-- Step 2	Choose Configuration > System.
-- Step 3	Select SNMPv2c, and set the community name.
-
-## 3.2 Configuring the HMM
-- Step 1	Log in to the HMM CLI.
-- Step 2	Run the following command to configure the SNMPv2c protocol:
-		smmset -l smm -d snmpconfig -v v2c enable 
-- Step 3	Enter y to confirm the configuration information.
-- Step 4	Run the following command to enter the community name configuration:
-		smmset -l smm -d snmpconfig -v community 
-- Step 5	Enter a community name.
-
-## 3.3 Importing and Configuring a Template
-**3.3.1 Importing a ValueMap Template**
-- Step 1	Log in to GitHub and obtain the Huawei Server ValueMap V1.2.xml template.
-- Step 2	Log in to the Zabbix WebUI.
-- Step 3	Choose Administration > General.
-- Step 4	Select Value mapping from the drop-down list box.
-- Step 5	Click Import to go to the import page.
-- Step 6	Click Browse and select the template obtained in step 1.
-- Step 7	Click Import.
-
-**3.3.2 Importing an iBMC or HMM Template**
-- Step 1	Log in to GitHub and obtain the Huawei Server iBMC Template V1.2.xml or Huawei Server HMM Template V1.2.xml template.
-- Step 2	Log in to the Zabbix WebUI.
-- Step 3	Choose Configuration > Templates.
-- Step 4	Click Import to go to the import page.
-- Step 5	Click Browse and select the template obtained in step 1.
-- Step 6	Click Import.
-
-**3.3.3 Configuring a Template**
-- Step 1	Log in to the Zabbix WebUI.
-- Step 2	Choose Configuration > Templates.
-- Step 3	Select the template to be imported.  
-- Step 4	Select Macros and set {$SNMP_COMMUNITY} and {$SNMP_PORT}.  
-	The value of {$SNMP_COMMUNITY} is the community name configured in section 3.1 or section 3.2.   
-	Retain the default value 161 for {$SNMP_PORT}.   
-- Step 5	Click Update.
-
-**3.3.4 Adding a Host**
-- Step 1	Log in to the Zabbix WebUI.
-- Step 2	Choose Configuration > Hosts.The Hosts page is displayed.
-- Step 3	Select Create Hosts to go to the creation page.  
-	Set In groups under Groups to Huawei Server.  
-	Set IP address and Port under SNMP interfaces to the iBMC IP address and 161 respectively.  
-- Step 4	Click Update.
-
-# 4.Zabbix share
-
-- [Huawei Server iBMC Template](https://share.zabbix.com/cat-server-hardware/huawei/huawei-server-ibmc-template)
-- [Huawei Server HMM Template](https://share.zabbix.com/cat-server-hardware/huawei/huawei-server-hmm-template)
+    For more information consult User Guide. https://github.com/Huawei/Server_Management_Plugin_Zabbix/tree/master/docs
