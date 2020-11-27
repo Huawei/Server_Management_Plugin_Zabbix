@@ -14,7 +14,7 @@ II. Description
     Integrated in the Zabbix software, Huawei Zabbix plug-in is provided as a Zabbix template. Users can directly use it or use it for secondary development. The Zabbix plug-in can be used to monitor the iBMC, HMM, CCU component, EMM, or SWI.
 
 	
-III.Compatibility Information
+III. Compatibility Information
 
 
 <table>
