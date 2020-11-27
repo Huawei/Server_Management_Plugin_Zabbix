@@ -21,8 +21,8 @@ III.Compatibility Information
    <tr>
       <td>Managed  Object</td>
       <td>Compatible  Zabbix Version</td>
-      <td><span style="white-space:nowrap;">Version  Dependency&emsp;&emsp;</span></td>
-      <td><span style="white-space:nowrap;">Hardware  Compatibility&emsp;&emsp;&emsp;&emsp;&emsp;</span></td>
+      <td><span style="white-space:nowrap;">Version  Dependency&emsp;&emsp;&emsp;</span></td>
+      <td><span style="white-space:nowrap;">Hardware  Compatibility&emsp;&emsp;&emsp;</span></td>
       <td><span style="white-space:nowrap;">&emsp;&emsp;</span></td>
       <td>Interface  Protocol</td>
    </tr>
