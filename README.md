@@ -23,7 +23,7 @@ III. Compatibility Information
       <td>Compatible  Zabbix Version</td>
       <td><span style="white-space:nowrap;">Version  Dependency&emsp;&emsp;&emsp;</span></td>
       <td><span style="white-space:nowrap;">Hardware  Compatibility&emsp;&emsp;&emsp;</span></td>
-      <td><span style="white-space:nowrap;">Interface  Protocol&emsp;&emsp;&emsp;&emsp;&emsp;</span></td>
+      <td><span style="white-space:nowrap;">Interface  Protocol&emsp;&emsp;&emsp;&emsp;</span></td>
    </tr>
    <tr>
       <td>HMM</td>
