@@ -34,9 +34,9 @@ III. Compatibility Information
    </tr>
    <tr>
       <td>iBMC</td>
-      <td>Zabbix 4.0, Zabbix 3.4</td>
+      <td>Zabbix3.4, Zabbix 4.0, Zabbix 5.0</td>
       <td>iBMC V294 or later</td>
-      <td>Rack server: RH1288 V3, RH2288 V3, RH2288H V3, RH5885 V3, RH8100 V3, 1288H V5, 2288H V5, 2488 V5, 2288 V5; 
+      <td>Rack server: RH1288 V3, RH2288 V3, RH2288H V3, RH5885 V3, RH8100 V3, 1288H V5, 2288H V5, 2488 V5, 2288 V5, 2288X V5; 
 	      High-density server: XH321 V3, XH620 V3, XH622 V3, XH628 V3; 
 	      Heterogeneous server: G560 V5; 
 	      Blade server: CH121L V5</td>
